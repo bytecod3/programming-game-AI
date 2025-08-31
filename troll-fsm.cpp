@@ -34,7 +34,7 @@ class State_RunAway : public State {
 };
 
 // state sleep
-class State_Sleep : public State {-
+class State_Sleep : public State {
     public:
         void Execute(Troll* troll) {
             if(troll->is_threatened()) {
